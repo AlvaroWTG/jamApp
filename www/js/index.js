@@ -39,7 +39,7 @@ var contacts;
 
 // Application Constructor
 function initialize() {
-    console.log("Log: JAM-app starts..");
+    alert("Log: JAM-app starts..");
     
     // Call to parse the catalog.xml file
     
@@ -98,6 +98,7 @@ function parser() {
             var currentContact = currentGroup[j].getElementsByTagName(tagPerson);
             contacts.push(currentContact);
             console.log("Log: current contact info is " + currentContact);
+            alert("Contact " + j + " in group " + i);
         }
     }
 }
