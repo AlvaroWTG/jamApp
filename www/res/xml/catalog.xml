@@ -2,32 +2,129 @@
 <catalog>
     
     <!-- ###########################
-         ## WEBTOGO CONFIGURATION ##
+         ## CATALOG CONFIGURATION ##
          ########################### -->
-    
-    <!-- Software group -->
-    <contact_group
-        name="TestGroupSoftware"
-        anim_progress="@drawable/group_software"
-        description="@string/TEST_GROUP_SOFTWARE_DESC"
-        icon="@drawable/icn_group_software_dark"
-        icon_inverted="@drawable/icn_group_software_white"
-        ida_id="2"
-        order="1"
-        title="@string/TEST_GROUP_SOFTWARE_TITLE"
-        title_while_running="@string/TEST_GROUP_SOFTWARE_TITLE_WHILE_RUNNING"
-        fixes_suggestion="@string/TEST_GROUP_SOFTWARE_FIXES_SUGGESTION"
-        tip="@string/TEST_GROUP_SOFTWARE_FIXES_TIP"
-        redirects_to_support_if_problem="false" >
-        <contact
-            name="TestRAMLoad"
-            ida_id="74"
-            is_interactive="false"
-            order="0"
-            procedure=".software.RAMLoad"
-            progress_measurable="false"
-            title="@string/TEST_RAM_LOAD_TITLE"
-            description="@string/TEST_RAM_LOAD_DESC" >
+    <contact_group identifier="1"
+        name="Derecho Penal"
+        keywords="ley,prision,penal"
+        image="img/groups/group1.png">
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+    </contact_group>
+    <contact_group identifier="1"
+        name="Derecho Penal"
+        keywords="ley,prision,penal"
+        image="img/groups/group1.png">
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+    </contact_group>
+    <contact_group identifier="1"
+        name="Derecho Penal"
+        keywords="ley,prision,penal"
+        image="img/groups/group1.png">
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
+        </contact>
+        <contact identifier="1"
+            name="Jose"
+            surname="Perez"
+            email="jose.perez@mail.com"
+            telephone="660112233"
+            address="c/ Pan y Toros, 27 1C"
+            postal_code="28001"
+            city="Madrid"
+            country="Spain"
+            image="img/contacts/contact1.png"
+            is_favorite="NO">
         </contact>
     </contact_group>
 </catalog>
