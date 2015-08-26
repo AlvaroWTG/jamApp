@@ -39,20 +39,6 @@ var contacts;
 
 // Application Constructor
 function initialize() {
-    alert("Log: JAM-app starts..");
-    
-    // Call to parse the catalog.xml file
-    
-    // Initialize the app
-    
-    // Call the event handler
-    this.bindEvents();
-}
-
-// Bind Event Listeners
-// Bind any events that are required on startup. Common events are:
-// 'load', 'deviceready', 'offline', and 'online'.
-function bindEvents() {
     document.addEventListener('deviceready', this.onDeviceReady, false);
 }
 
@@ -60,14 +46,10 @@ function bindEvents() {
 // The scope of 'this' is the event. In order to call the 'receivedEvent'
 // function, we must explicitly call 'app.receivedEvent(...);'
 function onDeviceReady() {
-    var parentElement = document.getElementById('deviceready');
-    var listeningElement = parentElement.querySelector('.listening');
-    var receivedElement = parentElement.querySelector('.received');
-
-    listeningElement.setAttribute('style', 'display:none;');
-    receivedElement.setAttribute('style', 'display:block;');
-
-    console.log('Received Event: deviceready');
+    console.log('Log: JAM-app starts..');
+    
+    // Call to parse the catalog.xml file
+    parser();
 }
 
 // ###################################################################################################################################################
@@ -78,10 +60,10 @@ function onDeviceReady() {
  * Function that parse the XML file for catalog
  */
 function parser() {
-    console.log("Log: XML parser initialized..");
+    console.log('Log: XML parser initialized..');
     
     // Obtain the raw information for the XML file
-    var xmlhttp = new XMLHttpRequest();
+  /*  var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET", filePath, false);
     xmlhttp.send();
     var xmlDoc = xmlhttp.responseXML;     
@@ -100,5 +82,5 @@ function parser() {
             console.log("Log: current contact info is " + currentContact);
             alert("Contact " + j + " in group " + i);
         }
-    }
+    }*/
 }
